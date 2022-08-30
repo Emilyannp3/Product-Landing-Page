@@ -5,14 +5,15 @@ html{
 .header li{
     display: inline;
    float: right;
-   padding: 10px;
    color: white;
+   padding: 10px;
+   text-align: center;
 }
 footer{
     background-color: #1F2937;
     color: white;
-    padding-bottom: 13px;
-    padding-top: 13px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     text-align:center; 
     margin: auto;
 }
