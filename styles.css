@@ -1,7 +1,6 @@
 html{
     font-family: Roboto, sans-serif
-    margin: 0, auto;
-    padding: 15px;
+    padding: 0px;
 }
 .header li{
     display: block;
@@ -10,6 +9,10 @@ html{
    padding: 10px;
    text-align: center;
    font-size: 24px;
+   margin-right: 25px;
+}
+.header img{
+    margin-left: 25px;
 }
 footer{
     background-color: #1F2937;
@@ -26,10 +29,14 @@ footer{
 .About_Us {
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
+    
 }
 .About_Us p, h1{
     grid-column: 1/2;
     border-style: dashed;
+    margin-left: 25px;
+    margin-right: 25px;
+    
 }
 h1{
     font-size: 48px;
@@ -42,6 +49,7 @@ h1{
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 0px;
+    padding-bottom: 0px;
 }
 h2{
     font-size: 36px;
@@ -50,27 +58,37 @@ h2{
 
 .About_Us img{
     grid-column: 2/2;
-    height: 250px
+    text-align:center;
+    height: 300px;
     width: 300px;
     border-radius: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    
 
 }
+.Products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 0px;
+}  
 .Products img{
     width: 100px;
     height: 150px;
     border-style: solid;
     border-radius: 25px;
     
+   
+    
+    
 }
-.Products{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
-    
-}  
 .img-captions{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+   
+    
+    
     
 }
 .img2{
@@ -106,6 +124,11 @@ h2{
 .cap4{
     grid-column: 4/4;
     grid-row:1;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
 button{
     color: #3882F6;
